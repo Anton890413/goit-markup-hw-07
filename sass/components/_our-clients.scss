@@ -1,0 +1,80 @@
+.projects-li,
+.photo,
+.our-clients-item {
+  margin-left: 30px;
+}
+
+.our-clients-item:first-child {
+  margin-left: 0px;
+}
+
+.projects-li:first-child {
+  margin-left: 0px;
+}
+
+.social-networks,
+.our-clients,
+.benefits-title,
+.projects,
+.team-list {
+  padding: 0px;
+}
+
+.our-clients {
+  width: 1170px;
+  padding: 0px 15px 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  position: relative;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.our-clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.our-clients-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  fill: #afb1b8;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+}
+
+.our-clients-item a:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill: #2196f3;
+}
+
+.icon-logo {
+  height: 50px;
+}
+
+.icon-logo:hover {
+}

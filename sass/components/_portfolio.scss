@@ -1,0 +1,157 @@
+.portfolio {
+  display: none;
+}
+
+.main {
+  list-style: none;
+  width: 1170px;
+  padding: 0px 15px 0px 15px;
+  margin: auto;
+  position: relative;
+}
+
+.button-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  padding: 0px;
+}
+
+.button-title li {
+  margin-right: 8px;
+}
+
+.button-title li:last-child {
+  margin-right: 0px;
+}
+
+.button-item {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+
+  &:hover {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #f5f4fa;
+    background-color: #2196f3;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 94px;
+  padding: 0px;
+}
+
+.cards {
+  display: block;
+  position: relative;
+  width: 370px;
+  height: 405px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.cards:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.focus {
+  display: block;
+  width: 370px;
+  height: 405px;
+  cursor: pointer;
+}
+
+.div-focus {
+  position: relative;
+  width: 370px;
+  height: 405px;
+  position: absolute;
+  opacity: 0;
+  transform: translateY(20%);
+  overflow: hidden;
+  margin-left: 0px;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  pointer-events: auto;
+
+  &:hover {
+    width: 370px;
+    height: 295px;
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(0%);
+    overflow: hidden;
+  }
+}
+
+.hidden {
+  width: 322px;
+  height: 168px;
+  padding: 63px 24px 63px 24px;
+  margin: 0px;
+}
+
+.name-cards {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #212121;
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.section {
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-left: 24px;
+  margin-bottom: 20px;
+  display: block;
+}
