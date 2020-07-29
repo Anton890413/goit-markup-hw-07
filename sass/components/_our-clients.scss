@@ -42,7 +42,7 @@
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid #afb1b8;
+  border: 1px solid $icon-color;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -53,7 +53,7 @@
   align-items: center;
   width: 170px;
   height: 90px;
-  fill: #afb1b8;
+  fill: $icon-color;
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -66,15 +66,12 @@
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid #2196f3;
+  border: 1px solid $focus-color;
   box-sizing: border-box;
   border-radius: 4px;
-  fill: #2196f3;
+  fill: $focus-color;
 }
 
 .icon-logo {
   height: 50px;
-}
-
-.icon-logo:hover {
 }

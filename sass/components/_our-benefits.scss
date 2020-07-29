@@ -46,7 +46,7 @@
   margin-bottom: 30px;
   height: 120px;
   background-color: var(--background-icon);
-  background-color: #f5f4fa;
+  background-color: $background-color-2;
 }
 
 .icon {
@@ -54,12 +54,12 @@
 }
 
 .benefits {
-  font-family: roboto;
+  font-family: $font-family-2;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $text-color;
   margin: 0px;
 }

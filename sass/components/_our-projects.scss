@@ -8,7 +8,7 @@
 }
 
 .index {
-  font-family: roboto;
+  font-family: $font-family-2;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -35,7 +35,7 @@
 }
 
 .projects-li p {
-  font-family: Roboto;
+  font-family: $font-family-2;
   font-size: 14px;
   line-height: 16px;
   position: absolute;
@@ -43,7 +43,7 @@
   bottom: 0px;
   width: 370px;
   height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: $background-color-3;
   margin: 0px;
   display: flex;
   align-items: center;

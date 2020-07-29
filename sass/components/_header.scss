@@ -5,8 +5,8 @@
   margin: auto;
 
   .mail {
-    color: #757575;
-    fill: #757575;
+    color: $text-color;
+    fill: $text-color;
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -14,13 +14,13 @@
   }
 
   .mail:hover {
-    color: #2196f3;
-    fill: #525a61;
+    color: $focus-color;
+    fill: $focus-color;
   }
 
   .tel {
-    color: #757575;
-    fill: #757575;
+    color: $text-color;
+    fill: $text-color;
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -28,13 +28,13 @@
   }
 
   .tel:hover {
-    color: #2196f3;
-    fill: #2196f3;
+    color: $focus-color;
+    fill: $focus-color;
   }
 
   a {
     text-decoration: none;
-    color: #212121;
+    color: $maincolor;
   }
 }
 
@@ -48,30 +48,8 @@
   height: 14.04px;
 }
 
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-li {
-  list-style-type: none;
-}
-
-h3 {
-  font-family: roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  height: 80px;
-}
-
 .header-list {
-  font-family: roboto;
+  font-family: $font-family-2;
   font-weight: 500;
   font-size: 14px;
   display: flex;
@@ -98,8 +76,8 @@ nav {
   }
 
   a:hover {
-    color: #2196f3;
-    border-bottom: 4px solid #2196f3;
+    color: $focus-color;
+    border-bottom: 4px solid $focus-color;
     border-radius: 2px;
   }
 }
@@ -115,7 +93,7 @@ nav {
 
 .address {
   font-style: normal;
-  font-family: roboto;
+  font-family: $font-family-2;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
